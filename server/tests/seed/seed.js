@@ -8,8 +8,8 @@ const userOneId = new ObjectID();
 const userTwoId = new ObjectID();
 const users = [{
   _id: userOneId,
-  email: 'larry1@internet.com',
-  password: 'userOnePass',
+  email: 'larry99@internet.com',
+  password: 'user99Pass',
   tokens: [{
     access: 'auth',
     token: jwt.sign({_id: userOneId, access: 'auth'}, 'abc123').toString()
